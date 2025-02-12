@@ -757,6 +757,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen7',
 		ruleset: ['-Nonexistent', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
+	{
+		name: "[Gen 9] Random Battle 2v2",
+
+		desc: "Random 2-Pokémon teams with team preview.",
+		mod: 'gen9',
+		team: 'random',
+		ruleset: [
+		  'Obtainable', 
+		  'Species Clause', 
+		  'HP Percentage Mod', 
+		  'Cancel Mod', 
+		  'Max Team Size = 2',  // Enforce 2 Pokémon
+		  'Adjust Level = 100'
+		],
+	  },
 
 	// Challengeable OMs
 	///////////////////////////////////////////////////////////////////
